@@ -28,12 +28,34 @@ class DatabaseSeeder extends Seeder
         );
 
         User::updateOrCreate(
+            ['email' => 'admin2@miniteamflow.local'],
+            [
+                'name' => 'Admin 2',
+                'password' => Hash::make('password'),
+                'role' => 'admin',
+                'position' => 'Yönetici',
+                'is_active' => true,
+            ],
+        );
+
+        User::updateOrCreate(
             ['email' => 'employee@miniteamflow.local'],
             [
                 'name' => 'Demo Çalışan',
                 'password' => Hash::make('password'),
                 'role' => 'employee',
                 'position' => 'Mobil Geliştirici',
+                'is_active' => true,
+            ],
+        );
+
+        User::updateOrCreate(
+            ['email' => 'employee2@miniteamflow.local'],
+            [
+                'name' => 'Demo Çalışan 2',
+                'password' => Hash::make('password'),
+                'role' => 'employee',
+                'position' => 'Operasyon Uzmanı',
                 'is_active' => true,
             ],
         );
