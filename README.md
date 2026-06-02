@@ -1,4 +1,4 @@
-# Mini TeamFlow
+# TeamFlow
 
 Flutter + Laravel ile geliştirilecek şirket içi görev, check-in, takvim ve bildirim uygulaması.
 

@@ -1,6 +1,6 @@
 {
-    "name": "mini_teamflow",
-    "short_name": "mini_teamflow",
+    "name": "TeamFlow",
+    "short_name": "TeamFlow",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

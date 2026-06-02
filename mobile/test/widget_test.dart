@@ -9,7 +9,7 @@ void main() {
     await tester.pumpWidget(const MiniTeamFlowApp());
     await tester.pumpAndSettle();
 
-    expect(find.text('Mini TeamFlow'), findsWidgets);
+    expect(find.text('TeamFlow'), findsWidgets);
     expect(find.text('Giriş Yap'), findsOneWidget);
   });
 }

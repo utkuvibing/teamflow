@@ -20,7 +20,7 @@ class MiniTeamFlowApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Mini TeamFlow',
+      title: 'TeamFlow',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF635BFF)),
         useMaterial3: true,
@@ -163,7 +163,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     const Icon(Icons.task_alt_rounded, size: 72),
                     const SizedBox(height: 20),
                     Text(
-                      'Mini TeamFlow',
+                      'TeamFlow',
                       textAlign: TextAlign.center,
                       style: Theme.of(context).textTheme.headlineMedium
                           ?.copyWith(fontWeight: FontWeight.w800),
@@ -269,7 +269,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Mini TeamFlow'),
+        title: const Text('TeamFlow'),
         actions: [
           IconButton(
             tooltip: 'Bildirimler',
